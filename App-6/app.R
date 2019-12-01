@@ -4,7 +4,7 @@ install.packages("quantmod")
 library("quantmod")
 
 # Source helpers ----
-source("/media/nabil/HDD1/BigData/Visualization/01_shiny_APP/App-6/helpers.R")
+source("helpers.R")
 
 # User interface ----
 ui <- fluidPage(

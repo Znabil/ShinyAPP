@@ -1,8 +1,8 @@
 library(maps)
 library(mapproj)
-source("/media/nabil/HDD1/BigData/Visualization/01_shiny_APP/App-5/helpers.R")
-counties <- readRDS("/media/nabil/HDD1/BigData/Visualization/01_shiny_APP/App-5/data/counties.rds")
-getwd()
+source("helpers.R")
+counties <- readRDS("data/counties.rds")
+
 # User interface ----
 ui <- fluidPage(
   titlePanel("censusVis"),
